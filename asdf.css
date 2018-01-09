@@ -1,0 +1,19 @@
+p {
+    color: blue;
+}
+.blue {
+    color: blue;
+}
+.green {
+    color: green;
+    background-color: grey;
+}
+.red {
+    color: red;
+}
+.small-img{
+    width: 30%;
+    border: 5px dashed salmon;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
+}
