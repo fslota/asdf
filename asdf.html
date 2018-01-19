@@ -4,6 +4,11 @@
         <title>About Me</title>
         <meta charset="utf-8">
         <link href="asdf.css" rel="stylesheet">
+        <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Paragraph changed.";
+        }
+        </script>
     </head>
     <body>
 
@@ -11,7 +16,7 @@
         <p>My first paragraph.</p>
         1234
 
-        <p>123</p>
+        <p id="demo">123</p>
         <span class="red blue green">some spanłąćę</span>
         <div>
             div1
@@ -26,7 +31,7 @@
             <p>asdfg2<p>
         </div>
         <br>
-        <button>The button</button><br>
+        <button type="button" onclick="myFunction()">The button</button><br>
         <img class="small-img" src="https://i.ytimg.com/vi/xwVEfcKNThY/maxresdefault.jpg" alt="short description">
         <a href="https://www.udacity.com">Udacity</a>
 
