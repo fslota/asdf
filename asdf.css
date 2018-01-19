@@ -11,7 +11,7 @@ p {
 .red {
     color: red;
 }
-.small-img{
+.smallimg{
     width: 30%;
     border: 5px dashed salmon;
     cursor: pointer;

@@ -1,3 +1,5 @@
-var price = 15;
-var money = 20;
-console.log(money >= price ? "not poor" : "poor");
+ var donuts = [
+     ["some donut", "other donut", "asdf donut"],
+     [20, 30, 5]
+];
+donuts.length;
