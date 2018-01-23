@@ -7,3 +7,7 @@ function biggerImage() {
 function normalImage() {
     document.getElementById("image1").style.width = "30%";
 }
+function showTime(){
+    document.getElementById("time1").innerHTML=Date();
+    
+}
