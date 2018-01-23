@@ -1,19 +1,60 @@
 p {
     color: blue;
 }
-.blue {
-    color: blue;
-}
-.green {
-    color: green;
-    background-color: grey;
-}
-.red {
-    color: red;
-}
+
 .smallimg{
     width: 30%;
     border: 5px dashed salmon;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
+    transition: 0.3s;
+}
+.smallimg:hover {
+    width: 60%;
+    transition: 0.8s;
+}
+.btn-group .button {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid green;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    border-radius: 10px;
+    width: 180px;
+
+}
+.btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+.btn-group .button:hover {
+    background-color: #3e8e41;
+}
+.btn-group .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-group .button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-group .button:hover span {
+  padding-right: 25px;
+}
+
+.btn-group .button:hover span:after {
+  opacity: 1;
+  right: 0;
 }

@@ -1,5 +1,9 @@
- var donuts = [
-     ["some donut", "other donut", "asdf donut"],
-     [20, 30, 5]
-];
-donuts.length;
+function smallerImage() {
+    document.getElementById("image1").style.width = "20%";
+}
+function biggerImage() {
+    document.getElementById("image1").style.width = "40%";
+}
+function normalImage() {
+    document.getElementById("image1").style.width = "30%";
+}

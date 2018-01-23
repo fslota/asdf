@@ -4,44 +4,27 @@
         <title>About Me</title>
         <meta charset="utf-8">
         <link href="asdf.css" rel="stylesheet">
-        <script>
-        function myFunction() {
-            document.getElementById("demo").innerHTML = "Paragraph changed.";
-        }
-        function smallerImage() {
-            document.getElementById("image1").style.width = "20%";
-        }
-        function biggerImage() {
-            document.getElementById("image1").style.width = "40%";
-        }
+        <script src="asdf.js">
         </script>
     </head>
     <body>
 
         <h1>My First Heading</h1>
         <p>My first paragraph.</p>
-        1234
+        <span class="red blue green"  onclick="normalImage()">normal img text</span>
 
-        <p id="demo">123</p>
-        <span class="red blue green">some spanłąćę</span>
-        <div>
-            div1
-        </div>
-        <div>
-            div2
-        </div>
-        <div>
-            <p>asdfg<p>
-        </div>
-        <div>
-            <p>asdfg2<p>
-        </div>
         <br>
-        <button type="button" onclick="myFunction()">The button</button><br>
-        <button type="button" onclick="smallerImage()">image small</button><br>
-        <button type="button" onclick="biggerImage()">image bigger</button><br>
-        <img id="image1" class="smallimg" src="https://i.ytimg.com/vi/xwVEfcKNThY/maxresdefault.jpg" alt="short description">
-        <a href="https://www.udacity.com">Udacity</a>
+        <button type="button" onclick="myFunction()"><span>The button</span></button><br>
+        <!--div of image size controling buttons-->
+
+        <div class="btn-group">
+          <button class="button" onclick="smallerImage()"><span>image small</span></button>
+          <button class="button" onclick="biggerImage()"><span>image bigger</span></button>
+          <button class="button" onclick="normalImage()"><span>image normal</span></button>
+        </div><br><br>
+
+        <img id="image1" class="smallimg" src="https://i.ytimg.com/vi/xwVEfcKNThY/maxresdefault.jpg" alt="short description"  onclick="normalImage()">
+        <br><a href="https://www.udacity.com">Udacity</a>
 
         <br>
         <ul>
