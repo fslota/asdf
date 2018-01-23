@@ -23,11 +23,12 @@
           <button class="button" onclick="normalImage()"><span>image normal</span></button>
         </div><br><br>
 
-        <img id="image1" class="smallimg" src="https://i.ytimg.com/vi/xwVEfcKNThY/maxresdefault.jpg" alt="short description"  onclick="normalImage()">
+        <img id="image1" class="smallimg" src="https://i.ytimg.com/vi/xwVEfcKNThY/maxresdefault.jpg"
+        alt="short description"  onclick="normalImage()" onmouseover="biggerImage()" onmouseout="normalImage()">
         <br>
         <div id="time1"></div>
         <script>
-            setInterval('showTime()', 1000);
+            setInterval("showTime()", 1000);
         </script>
         <br><a href="https://www.udacity.com">Udacity</a>
 

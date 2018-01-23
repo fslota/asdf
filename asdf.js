@@ -8,6 +8,6 @@ function normalImage() {
     document.getElementById("image1").style.width = "30%";
 }
 function showTime(){
-    document.getElementById("time1").innerHTML=Date();
-    
+    document.getElementById("time1").innerHTML=Date().slice(0, 25);
+
 }
