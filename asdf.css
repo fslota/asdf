@@ -11,9 +11,14 @@ p {
     cursor: zoom-in;
 }
 
-#time1{
-    position: relative;
-    left: 50px;
+.moneyApp{
+    width: 200px;
+    border: 5px solid green;
+    padding: 5px;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .btn-group .button {

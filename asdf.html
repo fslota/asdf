@@ -25,19 +25,26 @@
 
         <img id="image1" class="smallimg" src="https://i.ytimg.com/vi/xwVEfcKNThY/maxresdefault.jpg"
         alt="short description"  onclick="toggleImage()" >
-        <br>
-        <div id="time1"></div>
+        <br><br>
+
+
+        <!--app calculating income-->
+
+        <div class="moneyApp">
+            <select id="shift">
+                <option value="day">DAY SHIFT</option>
+                <option value="night">NIGHT SHIFT</option>
+            </select><br>
+            Seconds worked
+            <div id="time1"></div>
+            <progress id="bar1" max="100" value="0">asdf</progress>
+            Money earned
+            <div id="cash1"></div>
+        </div>
         <script>
             setInterval("showTime()", 1000);
         </script>
-        <br><a href="https://www.udacity.com">Udacity</a>
 
-        <br>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaSript</li>
-        </ul>
 
     </body>
 </html>
