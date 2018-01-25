@@ -2,12 +2,13 @@ p {
     color: blue;
 }
 
-.smallimg{
+#image1{
     width: 30%;
     border: 5px dashed salmon;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.59);
     transition: 0.3s;
+    cursor: zoom-in;
 }
 
 #time1{
